@@ -5,8 +5,8 @@ from astronomia.planetas import planetas
 from astronomia.galaxias import galaxias
 
 def explora(a):
-    sitios_a_explorar = ["rio", "lago", "campo"]
-    print(f"el alien {a} explora {random.choice(sitios_a_explorar)}")
+    sitios_a_explora_v = ["rio", "lago", "campo"]
+    print(f"el alien {a} explora {random.choice(sitios_a_explora_v)}")
 
 def cosmos(a, p, g):
     for alien in a:
